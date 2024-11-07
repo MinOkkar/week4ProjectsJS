@@ -78,4 +78,7 @@ console.log(listTasks('Work'));
 
 console.log("\nTest Case 7: List all tasks in 'Personal' category after adding new task");
 console.log(listTasks('Personal'));
-// Expected Outcome: [ 'Personal: Buy groceries', 'Personal: Call mom', 'Personal: Go for a walk' ]
+// Expected Outcome: [ 'Personal: Buy groceries', 'Personal: Call mom', 'Personal: Go for a walk']
+// happy coding! 6604133
+
+
