@@ -25,7 +25,7 @@ class SimpleCalculator {
             return('Invalid input: num1 and num2 must be numbers')
         }
         // Write function description 
-        //simple 
+        //simply we first check the variable are number are not , if they are numbers we check if elase with operations and excuate the function.!
         // Code below this line vvvvv vvvvv vvvvv vvvvv vvvvv
     
         // Code above this line ^^^^^ ^^^^^ ^^^^^ ^^^^^ ^^^^^
