@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List with Categories</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Shopping cart with Discouts</h1>
+
+      <!-- Add Task Form -->
+      <div class="form">
+        <input type="text" id="itemName" placeholder="Item Name" />
+        <input type="text" id="price" placeholder="Price" />
+        <input type="text" id="amount" placeholder="amount" value="1" />
+        <button onclick="addItem()">Add item</button>
+        <input type="text" id="discout" placeholder="Discout (%)" />
+        <button onclick="aplyDis()">Apply discout</button>
+      </div>
+
+      <!-- Task List -->
+      <div class="cart-list">
+        <h2>Cart Items</h2>
+        <div id="items-list"></div>
+        <h2 id="total">Total: $0</h2>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
